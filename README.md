@@ -13,7 +13,7 @@
 |with OBJECTS|Object.entries()|
 
 |The HOF|Takes a callback|How it works| Mutates original array| Output |# of arg in callback|
-|---|----|----|----|----|
+|---|----|----|----|----|-----|
 |arr.map(callback fnc)|Yes | calls a function on (maps over) each element in array| NO| A New transformed Array |One|
 |filter(callback fnc)|Yes|applies a function to each element and filters them based on a criteria|NO|A New SUbset Array|One|
 |reduce(callback)|Yes|Perform operations on the elements and return a single value||A Single Value|Two|
